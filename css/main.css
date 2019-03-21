@@ -97,19 +97,154 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*--- Base Header - Footer Styles ---*/
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* Header styles */
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header .header-divider {
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer styles */
+
+footer {
+    
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
+/*--- Mobile Styles - Homepage ---*/
 
+/* Hero area */
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+.hero-area .content-wrapper {
 
+}
 
+/* Aside area */
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+aside .content-wrapper {
 
+}
 
+.form-description {
 
+}
 
+.form {
 
+}
 
+/* Features area */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.features p .fontawesome-icon {
+
+}
+
+.features p .features-items-description {
+
+}
+
+/* Review area */
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.reviews article {
+
+}
+
+/*--- Mobile Styles - About page ---*/
+
+/* Mission area */
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* Contact section area */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/*--- Mobile Styles - FAQ page ---*/
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 
  /* ==========================================================================
