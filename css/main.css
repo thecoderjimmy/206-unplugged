@@ -114,10 +114,6 @@ header .content-wrapper {
     flex-flow: row wrap;
 }
 
-header .header-divider {
-
-}
-
 header nav {
     display: flex;
     justify-content: space-around;
@@ -127,15 +123,10 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 
 /* Footer styles */
-
-footer {
-    
-}
 
 footer .social {
     display: flex;
@@ -143,6 +134,11 @@ footer .social {
     align-items: center;
 }
 
+footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*--- Mobile Styles - Homepage ---*/
 
@@ -150,12 +146,7 @@ footer .social {
 .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
-}
-
-.hero-area .content-wrapper {
-
 }
 
 /* Aside area */
@@ -166,23 +157,10 @@ aside {
     flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-
-}
-
-.form-description {
-
-}
-
-.form {
-
-}
-
 /* Features area */
 .features {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
 }
 
@@ -193,24 +171,11 @@ aside .content-wrapper {
     flex-flow: row wrap;
 }
 
-.features p .fontawesome-icon {
-
-}
-
-.features p .features-items-description {
-
-}
-
 /* Review area */
 .reviews {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
-}
-
-.reviews article {
-
 }
 
 /*--- Mobile Styles - About page ---*/
