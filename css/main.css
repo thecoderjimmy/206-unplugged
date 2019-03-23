@@ -374,12 +374,12 @@ aside {
     /* general styles */
     .content-wrapper {
         max-width: 640px;
-        margin: 100px;
+        margin: 100px 0;
     }
 
     /* header styles */
     header {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     header .content-wrapper {
@@ -400,40 +400,33 @@ aside {
     }
 
     /* hero styles */
-    .hero-area {
-
-    }
+    
 
     /* aside */
     aside .content-wrapper {
+        margin: 50px 0;
         display: flex;
         justify-content: space-between;
         flex-flow: row wrap;
     }
 
     aside .content-wrapper .form-description, aside .content-wrapper .form {
-        width: 45%;
+        width: 35%;
         margin: 0;
     }
 
     /* features styles */
-    .features-items {
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row wrap;
-    }
 
     .features article {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-flow: row wrap;
-        flex-basis: 200px;
-        margin: 25px 50px;
+        flex-flow: column wrap;
+        flex-basis: 50%;
     }
 
     .features .features-item-description {
-        width: 100%;
+        width: 50%;
     }
 
     /* reviews secton styles */
@@ -443,20 +436,19 @@ aside {
     }
 
     .reviews article div {
-        width: 45%;
+        width: 49%;
     }
 
     /* footer styles */
     footer .content-wrapper {
-        width: 100%;
+        width: 65%;
         margin: 100px 0;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
 
     .footer-content {
-
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     footer .contact {
@@ -464,7 +456,7 @@ aside {
     }
 
     footer .copyright {
-        width: 30%;
+        width: 100%;
     }
 
     /***** Tablet styles (About) *****/
@@ -476,17 +468,17 @@ aside {
     }
 
     .mission-content p {
-        width: 45%;
+        width: 40%;
     }
 
     .contact-section .content-wrapper h2 {
-        width: 510px;
+        width: 80%;
     }
 
     .contact-content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .contact-content div {
