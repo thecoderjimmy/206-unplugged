@@ -144,6 +144,14 @@ textarea {
         line-height: 1.285;
    }
 
+   img {
+       width: 100%;
+   }
+
+   figure {
+       margin: 0;
+   }
+
    address {
         font-style: normal;
    }
@@ -176,6 +184,14 @@ header .content-wrapper {
     align-items: center;
     flex-flow: row wrap;
 
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -244,6 +260,8 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/hero.jpg') center no-repeat #333;
+    background-size: cover;
 }
 
 .hero-area h1 {
@@ -289,6 +307,8 @@ input[type=button] {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/features.jpg') center no-repeat #333;
+    background-size: cover;
 }
 
 .features h2 {
