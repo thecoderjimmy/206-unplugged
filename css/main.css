@@ -195,7 +195,7 @@ header figure {
 }
 
 .header-divider {
-    width: 100px;
+    width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
     background: #3a3a3a;
@@ -686,8 +686,23 @@ input[type=button] {
         max-width: 960px;
     }
 
+    h2 {
+        font-size: 2.25em;
+    }
+
+    h3,
+    h4 {
+        font-size: 1.875em;
+    }
+
+    p {
+        font-size: 1.125em;
+        line-height: 1.333;
+    }
+
     /* hero section */
     .hero-area h1 {
+        font-size: 3.75em;
         width: 60%;
     }
 
@@ -698,6 +713,10 @@ input[type=button] {
 
     aside .content-wrapper .form-description, aside .content-wrapper .form {
         width: 33.3%;
+    }
+
+    .form-description p {
+        font-size: 1.125em;
     }
 
     /* features section */
@@ -719,20 +738,32 @@ input[type=button] {
 
     .mission h2, .contact-section .content-wrapper h2 {
         width: 100%;
+        font-size: 3em;
     }
 
     .contact-section .contact-wrapper h2 {
         margin-bottom: 40px;
     }
 
+    .contact-content h4 {
+        font-size: 1.875em;
+    }
+
     /***** Desktop styles (FAQ) *****/
 
     .faq h2 {
         width: 100%;
+        font-size: 3em;
     }
 
     .faq-content {
         flex-basis: 35%;
+    }
+
+    .faq h4,
+    .faq p {
+        font-size: 1.125em;
+        line-height: 1;
     }
 
 }
