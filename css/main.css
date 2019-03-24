@@ -658,6 +658,11 @@ input[type=button] {
         width: 40%;
     }
 
+    /* Map area */
+    .map figure {
+        padding-bottom: 46%;
+    }
+
     .contact-section .content-wrapper h2 {
         width: 80%;
     }
@@ -756,6 +761,11 @@ input[type=button] {
     .mission h2, .contact-section .content-wrapper h2 {
         width: 100%;
         font-size: 3em;
+    }
+
+    /* Map area */
+    .map figure {
+        padding-bottom: 37.5%;
     }
 
     .contact-section .contact-wrapper h2 {
