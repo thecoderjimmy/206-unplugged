@@ -100,6 +100,7 @@ textarea {
    /* GENERAL CSS STYLES */
    html {
         font-size: 16px;
+        color: #e2e3ed;
    }
 
    body {
@@ -166,6 +167,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #202322;
 }
 
 /* Header styles */
@@ -237,6 +239,35 @@ footer .copyright {
 }
 
 /*--- Mobile Styles - Homepage ---*/
+/* Aside styles */
+aside {
+    background-color: #527158;
+}
+
+aside .form {
+    margin-top: 30px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /* Hero area */
 .hero-area {
@@ -285,6 +316,7 @@ aside {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
 }
 
 .reviews h3 {
