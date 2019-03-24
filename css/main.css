@@ -128,6 +128,7 @@ textarea {
    h2 {
         font-family: 'Poppins' sans-serif;
         font-size: 1.875em;
+        font-weight: 500;
     }
 
    h3,
@@ -135,19 +136,12 @@ textarea {
         font-family: 'Poppins' sans-serif;
         margin: 20px 0;
         font-size: 1.125em;
+        font-weight: 500;
    }
 
    p {
         font-size: 0.875em;
         line-height: 1.285;
-   }
-
-   img {
-
-   }
-
-   figure {
-
    }
 
    address {
@@ -181,16 +175,21 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+
 }
 
 .header-divider {
     width: 100px;
     height: 1px;
     margin: 10px 0 20px 0;
+    background: #3a3a3a;
 }
 
 header nav {
     width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -205,6 +204,7 @@ header nav ul {
 
 /* Footer styles */
 footer {
+    text-align: center;
     flex-direction: column;
     /* MAKES EVERYTHING STACK 0_0 */
 }
@@ -239,9 +239,24 @@ footer .copyright {
 }
 
 /*--- Mobile Styles - Homepage ---*/
+/* Hero area */
+.hero-area {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.hero-area h1 {
+    font-size: 2.25em;
+}
+
 /* Aside styles */
 aside {
     background-color: #527158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 aside .form {
@@ -269,21 +284,6 @@ input[type=button] {
     text-transform: uppercase;
 }
 
-/* Hero area */
-.hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-}
-
-/* Aside area */
-aside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
 /* Features area */
 .features {
     display: flex;
@@ -308,6 +308,7 @@ aside {
 }
 
 .features p {
+    text-align: center;
     margin: 0;
 }
 
@@ -319,6 +320,11 @@ aside {
     background-color: #2a423a;
 }
 
+.reviews h2 {
+    margin-bottom: 40px;
+    line-height: 1;
+}
+
 .reviews h3 {
     width: 50%;
     margin: 20px 0;
@@ -328,6 +334,7 @@ aside {
 
 /* Mission area */
 .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,6 +343,7 @@ aside {
 
 /* Contact section area */
 .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,6 +356,7 @@ aside {
 
 /*--- Mobile Styles - FAQ page ---*/
 .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,10 +373,16 @@ aside {
 
 .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
 }
 
 .faq-content {
     margin-bottom: 50px;
+}
+
+.faq-content h4 {
+    line-height: 1.333;
+    font-weight: 700;
 }
 
  /* ==========================================================================
